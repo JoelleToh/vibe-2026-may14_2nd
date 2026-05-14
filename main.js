@@ -5,14 +5,14 @@ document.addEventListener('DOMContentLoaded', function() {
     const gardenData = [
         {
             "name": "CapitaSpring",
-            "image": "https://images.unsplash.com/photo-1529108190281-9a4f620bc2d8?auto=format&fit=crop&w=800&q=80",
+            "image": "https://en.wikipedia.org/wiki/Dennis_Ritchie#/media/File:Dennis_Ritchie_2011.jpg ",
             "description": "A green oasis in the heart of the city, CapitaSpring is a 51-storey integrated development with a stunning sky garden and urban farm.",
             "location": "88 Market St, Singapore 048948",
             "coords": { "lat": 1.282, "lng": 103.85 }
         },
         {
             "name": "Gardens by the Bay",
-            "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Supertree_Grove%2C_Gardens_by_the_Bay%2C_Singapore_-_20120712-02.jpg/1920px-Supertree_Grove%2C_Gardens_by_the_Bay%2C_Singapore_-_20120712-02.jpg",
             "description": "An iconic Singapore landmark, Gardens by the Bay features the stunning Supertree Grove, Cloud Forest, and Flower Dome.",
             "location": "18 Marina Gardens Dr, Singapore 018953",
             "coords": { "lat": 1.281, "lng": 103.863 }
