@@ -28,5 +28,11 @@ This web application showcases the beautiful rooftop gardens of Singapore. It pr
 
 ### Current Plan
 
-My current plan is to add a new feature to the Rooftop Gardens in Singapore web app. I will be adding more HDB gardens to the app, including Skyville @ Dawson and The Pinnacle @ Duxton. I will also be updating the images to ensure that they are all loading correctly.
+I have updated the application by replacing all broken image links with high-quality, working URLs from Unsplash. This ensures that the gallery and garden cards are fully functional and visually appealing. All five gardens (CapitaSpring, Gardens by the Bay, Funan Mall, Skyville @ Dawson, and The Pinnacle @ Duxton) now display their respective imagery correctly.
+
+#### Steps Taken:
+1.  **Audited Image Links:** Identified 404 and broken redirects in the existing `gardenData`.
+2.  **Sourced Replacements:** Found reliable Unsplash image IDs for Singapore-themed greenery and architecture.
+3.  **Updated `main.js`:** Replaced the `image` field in `gardenData` with the new verified URLs.
+4.  **Verified:** Confirmed all new URLs return a 200 OK status.
 
