@@ -55,7 +55,7 @@ nav ul {
 }
 
 .hero {
-    background-image: linear-gradient(to right, oklch(65% 0.25 150 / 50%), oklch(75% 0.2 130/ 50%)), url('https://images.unsplash.com/photo-1519013813137-5b65a44beb49?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-image: linear-gradient(to right, oklch(65% 0.25 150 / 50%), oklch(75% 0.2 130/ 50%)), url('https://upload.wikimedia.org/wikipedia/commons/e/e5/Supertree_Grove%2C_Gardens_by_the_Bay%2C_Singapore_-_20120712-02.jpg');
     background-size: cover;
     background-position: center;
     color: var(--white);
@@ -134,6 +134,17 @@ h2 {
     margin-top: 0;
     font-size: 1.5rem;
     color: var(--primary-color);
+}
+
+#map-container {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+#map {
+    height: 500px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
 }
 
 footer {

@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rooftop Gardens in Singapore</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhO3LpLegk8vS/sLeGesrvUqqz9ZFAd0/τευ="
+     crossorigin=""/>
 </head>
 <body>
     <header>
@@ -14,6 +17,7 @@
             <ul>
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#gardens">Gardens</a></li>
+                <li><a href="#map">Map</a></li>
             </ul>
         </nav>
     </header>
@@ -37,12 +41,20 @@
             <div class="gardens-grid">
             </div>
         </section>
+
+        <section id="map-container" class="map-container">
+            <h2>Our Gardens Map</h2>
+            <div id="map"></div>
+        </section>
     </main>
 
     <footer>
         <p>&copy; 2024 Singapore Rooftop Gardens. All rights reserved.</p>
     </footer>
 
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
     <script src="main.js"></script>
 </body>
 </html>
